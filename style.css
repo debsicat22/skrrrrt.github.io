@@ -1,0 +1,120 @@
+/* Sets the font family, size, color and background color for the entire page and removes default margins and padding */
+body {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	}
+	
+	/* Sets the font family and weight for all headings and removes default margin for top */
+	h1, h2, h3 {
+	font-family: "Tahoma", sans-serif;
+	font-weight: 700;
+	margin-top: 0;
+	}
+	
+	/* Sets color and removes underline for all links */
+	a {
+	color: #000000;
+	text-decoration: none;
+	}
+	
+	/* Sets color for links on hover */
+	a:hover {
+	color: #FFFFFF;
+	}
+	
+	/* Adds an underline decoration for text with class "underline" */
+	.underline {
+	text-decoration: underline;
+	}
+	
+	/* Styles the header section */
+	header {
+	background-color: #17072b;
+	color: #FFFFFF;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+	
+	/* Styles the navigation container */
+	.header-nav-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	}
+	
+	/* Styles the navigation menu */
+	nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+	
+	/* Styles the navigation items */
+	nav li {
+	margin: 0 10px;
+	}
+	
+	/* Styles the navigation links */
+	nav a {
+	padding: 5px 10px;
+	}
+	
+	/* Sets the color for all navigation links */
+	nav ul li a {
+	color: #FFFFFF;
+	}
+	
+	/* Clears floats after the main content */
+	main:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+	
+	/* Styles the welcome section */
+	.welcome-section {
+	float: left;
+	width: 50%;
+	text-align: justify;
+	}
+	
+	/* Styles the welcome section image */
+	.welcome-section img{
+	width: 95%;
+	height: 300px;
+	object-fit: cover;
+	}
+	
+	/* Styles the line-up section */
+	.line-up-section {
+	background-color: #172d67;
+	color: #FFFFFF;
+	float: right;
+	width: 50%;
+	text-align: justify;
+	}
+	
+	/* Styles the line-up section images */
+	.line-up-section img{
+	width: 30%;
+	height: 263px;
+	object-fit: cover;
+	}
+	
+	/* Styles the footer section */
+	footer {
+	background-color: #8c15e9;
+	color: #ffffff;
+	text-align: center;
+	padding: 1px;
+	}
