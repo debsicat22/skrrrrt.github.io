@@ -5,4 +5,4 @@ function changeColor() {
     heading.style.color = randomColor;
   }
   
-  setInterval(changeColor, 1000);
+  setInterval(changeColor, 2000);
