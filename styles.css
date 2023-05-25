@@ -48,7 +48,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Press Start 2P', Arial, sans-serif;
   text-align: center;
 }
 
@@ -89,11 +89,13 @@ main button:hover {
   text-align: center;
   display: flex;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 
 .game-categories li:hover {
   background-color: #F44336;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .game-box {
@@ -243,4 +245,72 @@ main button:hover {
 
 .contact-form input[type="submit"]:hover {
   background-color: #D32F2F;
+}
+
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.category h3 {
+  margin-top: 10px;
+}
+
+.game-list {
+  text-decoration: none;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.game-list li {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.game-list img {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.game-list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.about-us {
+  background-color: #F44336;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-family: 'Press Start 2P', Arial, sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-family: 'Press Start 2P', Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
